@@ -1,0 +1,438 @@
+body {
+    margin:0;
+    padding:0;
+
+}
+/*-------------------Header-------------------*/
+.header {
+    background-image: url(IMAGENES/FONDO1.jpg);
+    position: absolute;
+    width: 100%;
+    height: 133px;
+   
+}
+.logodpp {
+    width: 176px;
+    height: 76px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    display: block;
+}
+.titulologo{
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 2px; 
+    text-align: center;
+}
+/*------End Header--------*/
+/*------NavBar------*/
+.NavBar {
+    position: absolute;
+    top: 133px;
+    width: 100%;
+    height: 81px;
+    background-color: #F7F5F5;
+    
+    }
+
+.NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.NavBar li{
+    display: inline-block;
+}
+.NavBar a{
+    width: 190px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+a{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 30px 0px 0px 0px;
+}
+/*----Portada-----*/
+.Portada {
+    position: relative;
+    float: center;
+    width: 980px;
+    height: 372px;
+    left: 30px;
+    top: 232px;
+    background: #504545;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.ImagenPortada {
+    position: absolute;
+    width: 489.13px;
+    height: 330px;
+    left: 470px;
+    top: 20px;
+    background:rgb(37, 185, 37);  /*url(image.png)*/ 
+}
+.TextoPortada {
+    position: absolute;
+    width: 428px;
+    height: 125px;
+    left: 28px;
+    top: 20px;
+}
+.TituloPortada {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: seashell;
+}
+.DescripcionTP {
+    position: absolute;
+    width: 418px;
+    height: 85px;
+    left: 28px;
+    top: 154px;
+}
+.TextoDTP {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.NombreDelAutor {
+    position: absolute;
+    width: 200px;
+    height: 13px;
+    left: 28px;
+    top: 335px;
+}
+.EstiloNDA  {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+/*----------------------------FILA2 NOTICIAS ----------------------------------*/
+
+.Fila2 {
+    position: relative;
+    float: center ; 
+    width: 979px;
+    height: 375px;
+    left: 30px;
+    top: 250px;
+   /* background: green;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.Noticia1 {
+    position: absolute;
+    width: 300px;
+    height: 375px;
+    left: 0px;
+    top: 0px;
+   /* background: rgb(139, 238, 139);*/
+    border: #C4C4C4 0.1px solid;
+}
+.ImagenNoticia1 {
+    position: relative;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: px;
+    background: rgb(226, 226, 226);
+}
+.SeccionNoticia1 {
+    position: absolute;
+    width: 64.46px;
+    height: 16px;
+    left: 13.12px;
+    top: 140px;
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+.TituloNoticia1 {
+    position: absolute;
+    width: 275px;
+    height: 134px;
+    left: 13.12px;
+    top: 186px;
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.NombreAutorNoticia1 {
+    position: absolute;
+    width: 200px;
+    height: 13px;
+    left: 13.12px;
+    top: 320px;
+    font-family:Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+.Noticia2 {
+    position: absolute;
+    width: 300px;
+    height: 375px;
+    left: 340px;
+    top: 0px;
+    /*background: rgb(139, 238, 139);*/
+    border: #C4C4C4 0.1px solid;
+}
+.ImagenNoticia2 {
+    position: relative;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: px;
+    background: rgb(226, 226, 226);
+}
+.Noticia3 {
+    position: absolute;
+    width: 300px;
+    height: 375px;
+    left: 680px;
+    top: 0px;
+    /*background: rgb(139, 238, 139);*/
+    border: #C4C4C4 0.1px solid;
+}
+.ImagenNoticia3 {
+    position: relative;
+    width: 300px;
+    height: 154px;
+    left: 0px;
+    top: px;
+    background: rgb(226, 226, 226);
+}
+
+/*------Fila3------*/
+
+.Fila3 {
+    position: relative;
+    float: center ; 
+    width: 979px;
+    height: 375px;
+    left: 30px;
+    top: 270px;
+    /*background: green;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Portada2 {
+    position: absolute;
+    width: 640px;
+    height: 375px;
+    left: 0px;
+    top: 0px;
+    background: #504545;
+}
+
+.ImagenPortada2 {
+    position: absolute;
+    width: 298px;
+    height: 337px;
+    left: 320px;
+    top: 16px;
+}
+
+
+.ImagenNoticiaPortada {
+    position: absolute;
+    width: 298px;
+    height: 337px;
+    left: 20px;
+    top: 16px;
+}
+
+.TituloPortada2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 30px;
+    color: seashell;
+    
+}
+
+.DescripcionPortada2 {
+    position: absolute;
+    width: 280px;
+    height: 134px;
+    left: 13.12px;
+    top: 156px;
+    font-family: Arial, Helvetica, sans-serif; ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+
+.SeccionNoticia2 {
+    position: absolute;
+    width: 64.46px;
+    height: 16px;
+    left: 13.12px;
+    top: 120px;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+}
+.NombreAutorNoticia2 {
+    position: absolute;
+    width: 200px;
+    height: 13px;
+    left: 13.12px;
+    top: 300px;
+    font-family:Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.Fila4 {
+    position: absolute;
+    width: 980px;
+    height: 375px;
+    left: 0px;
+    top: 400px;
+    /* background: green;*/
+}
+
+.Fila5 {
+    position: absolute;
+    width: 980px;
+    height: 375px;
+    left: 0px;
+    top: 800px;
+    /* background: green;*/
+}
+/*Pie de Pagina*/
+.Piedepagina {
+    position: relative;
+    float: center;
+    width: 980px;
+    height: 306px;
+    left: 0px;
+    top: 1200px;
+    background: #504545;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.NoticiaPiedepagina1 {
+    position: absolute;
+    width: 313px;
+    height: 306px;
+    left: 0px;
+    top: 0px;
+    /*background: greenyellow;*/
+
+}
+.ImagenNoticiaPiedepagina1{
+    position: relative;
+    width: 176px;
+    height: 76px;
+    left: 35px;
+    top: 15px;
+    
+}
+.SeccionPiedepagina1{
+    text-align: center;
+    left: 10%;
+    right: 50%;
+    position: relative;
+    top: 50px;
+    color: white;
+    font-size: 12.5px;
+}
+.NoticiaPiedepagina2 {
+    position: absolute;
+    width: 313px;
+    height: 306px;
+    left: 333px;
+    top: 0px;
+}
+
+.SeccionPiedepagina2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center !important;
+    color: #FFFFFF;
+    padding: 0px 0px 0px 0px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.Piedepagina2{
+    top: 20px;
+}
+
+.TituloSegundafila {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.5px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.NoticiaPiedepagina3 {
+   position: relative;
+    width: 313px;
+    height: 306px;
+    left: 667px;
+    top: 0px !important ;
+    color: white;
+}
+
+.TituloTercerafila {
+    
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center !important;
+    color: #FFFFFF;
+    padding: 0px 0px 0px 0px ;
+    left: 50%;
+    top: 50%;
+}

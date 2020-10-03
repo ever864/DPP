@@ -1,0 +1,332 @@
+body {
+    margin:0;
+    padding:0;
+}
+.Body {
+    position: absolute;
+    left: 100px !important;
+}
+/*-------------------Header-------------------*/
+.header {
+    background-image: url(IMAGENES/FONDO1.jpg);
+    position: absolute;
+    width: 100%;
+    height: 133px;
+   
+}
+.logodpp {
+    width: 176px;
+    height: 76px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    display: block;
+}
+.titulologo {
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 2px; 
+    text-align: center;
+}
+/*------End Header--------*/
+/*------NavBar------*/
+.NavBar {
+    position: absolute;
+    top: 133px;
+    width: 100%;
+    height: 81px;
+    background-color: #F7F5F5;
+    
+    }
+
+.NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.NavBar li{
+    display: inline-block;
+}
+.NavBar a{
+    width: 190px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+li {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 30px 0px 0px 0px;
+}
+/*------End - NavBar------*/
+
+.TituloUltimaNoticia {
+    position: absolute;
+    width: 555px;
+    height: 84px;
+    left: 480px;
+    top: 243px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.TituloUN {
+
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    color: #286513;
+}
+
+
+.FotoPortada1 {
+    position: absolute;
+    width: 627px;
+    height: 313.5px;
+    left: 480px;
+    top: 300px;
+    background-color: #286513;
+}
+.SeccionPortada {
+    position: absolute;
+    width: 55.94px;
+    height: 16px;
+    left: 480.12px;
+    top: 650px;
+}
+.LetraSeccionPortada {
+    font-family: Noto Serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+.TituloPortada{
+    position: absolute;
+    width: 578px;
+    height: 82px;
+    left: 480.12px;
+    top: 710px;
+}
+.LetraTituloPortada {
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+}
+.NombreAutor {
+    position: absolute;
+    width: 263px;
+    height: 26px;
+    left: 480.12px;
+    top: 790px;
+}
+
+.LetraNombreAutor {
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+/*Barra Horizontal para la noticia de Futbol Peruano*/
+.Noticias3UltimasNoticias {
+    position: absolute;
+    width: 627px;
+    height: 166px;
+    left: 580px;
+    top: 850px;
+    background: yellowgreen;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: #C4C4C4 0.1px solid;
+}
+.ImagenNoticiaUL{
+    position: absolute;
+    width: 325px;
+    height: 168px;
+    left: 0px;
+    top: 0px;
+}
+.SecciondeNoticiaUL {
+    position: absolute;
+    width: 163.27px;
+    height: 16px;
+    left: 352.12px;
+    top: 0px;
+    padding: 10px 0px 0px 0px;
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+.TituloNoticia1 {
+    position: absolute;
+    width: 243px;
+    height: 113px;
+    left: 352px;
+    top: 29px;
+    padding: 10px 0px 0px 0px;
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+}
+.Noticias4UltimasNoticias {
+    position: absolute;
+    width: 627px;
+    height: 166px;
+    left: 580px;
+    top: 1050px;
+    background: yellowgreen;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: #C4C4C4 0.1px solid;
+}
+.Noticias5UltimasNoticias {
+    position: absolute;
+    width: 627px;
+    height: 166px;
+    left: 580px;
+    top: 1250px;
+    background: yellowgreen;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: #C4C4C4 0.1px solid;
+}
+.Noticias6UltimasNoticias {
+    position: absolute;
+    width: 627px;
+    height: 166px;
+    left: 580px;
+    top: 1450px;
+    background: yellowgreen;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: #C4C4C4 0.1px solid;
+}
+.Noticias7UltimasNoticias {
+    position: absolute;
+    width: 627px;
+    height: 166px;
+    left: 580px;
+    top: 1650px;
+    background: yellowgreen;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: #C4C4C4 0.1px solid;
+}
+/*Pie de pagina*/
+.Piedepagina {
+    position: relative;
+    float: center;
+    width: 980px;
+    height: 306px;
+    left: 0px;
+    top: 1850px;
+    background: #504545;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.NoticiaPiedepagina1 {
+    position: absolute;
+    width: 313px;
+    height: 306px;
+    left: 0px;
+    top: 0px;
+    /*background: greenyellow;*/
+
+}
+.ImagenNoticiaPiedepagina1{
+    position: relative;
+    width: 176px;
+    height: 76px;
+    left: 35px;
+    top: 15px;
+    
+}
+.SeccionPiedepagina1{
+    text-align: center;
+    left: 10%;
+    right: 50%;
+    position: relative;
+    top: 50px;
+    color: white;
+    font-size: 12.5px;
+}
+.NoticiaPiedepagina2 {
+    position: absolute;
+    width: 313px;
+    height: 306px;
+    left: 333px;
+    top: 0px;
+}
+
+.SeccionPiedepagina2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center !important;
+    color: #FFFFFF;
+    padding: 0px 0px 0px 0px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.Piedepagina2{
+    top: 20px;
+}
+
+.TituloSegundafila {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.5px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.NoticiaPiedepagina3 {
+   position: relative;
+    width: 313px;
+    height: 306px;
+    left: 667px;
+    top: 0px !important ;
+    color: white;
+}
+
+.TituloTercerafila {
+    
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center !important;
+    color: #FFFFFF;
+    padding: 0px 0px 0px 0px ;
+    left: 50%;
+    top: 50%;
+}
+
