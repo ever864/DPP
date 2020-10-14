@@ -5,7 +5,7 @@ body {
 .Body {
     position: absolute;
     left: 100px !important;
-}
+  }
 /*-------------------Header-------------------*/
 .header {
     background-image: url(IMAGENES/FONDO1.jpg);
@@ -64,19 +64,26 @@ li {
     padding: 30px 0px 0px 0px;
 }
 /*------End - NavBar------*/
-
-.TituloUltimaNoticia {
-    position: absolute;
-    width: 555px;
-    height: 84px;
-    left: 480px;
-    top: 243px;
+.body_1{
+    position: relative;
+    top: 300px;
+    right: 200px;
+    width: 800px;
+    height: 1200px;
+    background-color: rgb(144, 144, 226);
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+.TituloUltimaNoticia {
+    width: 555px;
+    height: 84px;
 }
 .TituloUN {
-
+    width: 634px;
+    height: 344px;
     font-family: Noto Serif;
     font-style: normal;
     font-weight: 800;
@@ -87,15 +94,11 @@ li {
 
 
 .FotoPortada1 {
-    position: absolute;
-    width: 627px;
-    height: 313.5px;
-    left: 480px;
-    top: 300px;
-    background-color: #286513;
+    width: 634px;
+    height: 344px;
+    background-color: #9de784;
 }
 .SeccionPortada {
-    position: absolute;
     width: 55.94px;
     height: 16px;
     left: 480.12px;
@@ -109,7 +112,6 @@ li {
     line-height: 22px;
 }
 .TituloPortada{
-    position: absolute;
     width: 578px;
     height: 82px;
     left: 480.12px;
@@ -123,7 +125,6 @@ li {
     line-height: 38px;
 }
 .NombreAutor {
-    position: absolute;
     width: 263px;
     height: 26px;
     left: 480.12px;
